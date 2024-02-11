@@ -1,33 +1,29 @@
 # flask_app
 
-Installation et Exécution de l'Application Flask
-
-Cet ensemble de scripts permet d'installer et d'exécuter une application Flask de démonstration.
-
 Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository:
 
    git clone https://github.com/Aslan-Taleb/flask_app
 
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory:
 
    cd flask_app
 
-3. Assurez-vous que les scripts sont exécutables :
+3. Ensure the scripts are executable:
 
    chmod +x *.sh
 
-4. Exécutez le premier script d'installation pour configurer votre environnement Conda :
+4. Run the first installation script to set up your Conda environment:
 
    ./first_install_conda.sh
 
-5. Redémarrez votre système pour que les changements prennent effet.
+5. Restart your system for the changes to take effect.
 
-Exécution de l'application
+Running the application
 
-Une fois votre système redémarré, exécutez le deuxième script pour installer les dépendances Python et lancer l'application Flask :
+Once your system has restarted, run the second script to install Python dependencies and launch the Flask application:
 
    ./second_install_app.sh
 
-Cela lancera l'application Flask.
+This will start the Flask application.
